@@ -32,5 +32,8 @@ public class CheckPage1 {
 
 
 
+        System.out.println("User2 working.");
+        System.out.println("Test 2 done.");
+
 }
 }
