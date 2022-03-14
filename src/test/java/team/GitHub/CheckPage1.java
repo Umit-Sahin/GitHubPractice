@@ -12,7 +12,9 @@ public class CheckPage1 {
 
 
 
-
+    String name3 = "User3";
+    String job3 = "QA Engineer";
+    System.out.println("It’s me. User 3");
 
 
 
