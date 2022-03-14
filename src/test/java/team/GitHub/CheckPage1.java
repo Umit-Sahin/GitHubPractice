@@ -8,7 +8,9 @@ public class CheckPage1 {
 
 
 
-
+    String name2 = "User2";
+    String job2 = "QA Engineer";
+    System.out.println("It’s me.User 2");
 
 
 
