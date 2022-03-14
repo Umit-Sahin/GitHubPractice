@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = "team/step_definitions",
         strict = true,
         dryRun =false,
-        tags = "@ETSKY-337"
+        tags = "@login"
 )
 
 public class TeamRunner {
