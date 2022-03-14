@@ -10,5 +10,19 @@ public class CheckPage2 {
 
    @Test
    public void test1(){
-       System.out.println("Scenario 3 executing"); }
+   System.out.println("Scenario 3 executing"); }
+
+
+
+
+
+     @Test
+     public void test3(){
+     System.out.println("Scenario 3 executing"); }
+
+
+
+
+
+
 }
