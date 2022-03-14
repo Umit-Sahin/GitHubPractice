@@ -27,8 +27,7 @@ public class CheckPage1 {
 
 
 
-
-
+    boolean input=true;
 
 
 
