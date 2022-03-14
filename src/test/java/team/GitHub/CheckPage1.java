@@ -28,10 +28,8 @@ public class CheckPage1 {
 
 
 
-
-
-
-
+        System.out.println("User2 working.");
+        System.out.println("Test 2 done.");
 
 
         System.out.println("User1 working.");
@@ -39,6 +37,7 @@ public class CheckPage1 {
 
     System.out.println("User3 working.");
     System.out.println("Test 3 done.");
+
 
 
 }
