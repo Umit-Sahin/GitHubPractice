@@ -25,4 +25,12 @@ public class CheckPage2 {
 
 
 
+
+
+
+    @Test
+    public void test2(){
+        System.out.println("Scenario 3 executing"); }
+
+
 }
