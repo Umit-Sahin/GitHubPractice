@@ -30,6 +30,8 @@ public class CheckPage1 {
 
 
 
+        System.out.println("User1 working.");
+        System.out.println("Test 1 done.");
 
 
 
