@@ -2,5 +2,5 @@ target/
 .idea/
 *.xml
 *.iml
-/configuration.properties/
-/pom.xml/
+configuration.properties
+pom.xml
