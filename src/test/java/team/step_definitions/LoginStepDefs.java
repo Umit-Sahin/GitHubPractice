@@ -16,11 +16,12 @@ public class LoginStepDefs {
 
     @When("the user enters the verified information")
     public void the_user_enters_the_verified_information() {
-        String username = ConfigurationReader.get("username");
-        String password = ConfigurationReader.get("password");
+//        String username = ConfigurationReader.get("username");
+//        String password = ConfigurationReader.get("password");
 
         LoginPage loginPage = new LoginPage();
-        loginPage.login(username, password);
+//        loginPage.login(username, password);
+        loginPage.login();
     }
 
     @Then("the user should be able to login")

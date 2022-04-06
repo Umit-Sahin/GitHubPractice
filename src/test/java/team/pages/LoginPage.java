@@ -1,5 +1,6 @@
 package team.pages;
 
+import team.utilities.ConfigurationReader;
 import team.utilities.Drivers;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,6 +32,13 @@ public class LoginPage {
         usernameInputBox.sendKeys(usernameStr);
         passwordInputBox.sendKeys(passwordStr);
         submit.click();
+    }
+    public void login(){
+        String username = System.getProperty("username") !=null ?
+                            System.getProperty("username") : ConfigurationReader.get("username");
+        String password = System.getProperty("password") !=null ?
+                System.getProperty("password") : ConfigurationReader.get("password");
+        login(username,password);
     }
 
 }

@@ -66,7 +66,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <runOrder>Alphabetical</runOrder>
                     <includes>
-                        <include>**/*SkyRunner.java</include>
+                        <include>**/*TeamRunner.java</include>
                         <include>**/*FailedTestRunner.java</include>
                     </includes>
                 </configuration>
